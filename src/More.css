@@ -1,0 +1,27 @@
+.More2{
+    width: 100vw;
+    height: 100vh;
+   
+}
+.LoadMOre-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+}
+.load-more{
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-family: 'Square Peg', cursive;
+    border: none;cursor: pointer;
+  
+}
+.load-more:hover{
+    background-color: orangered;
+}

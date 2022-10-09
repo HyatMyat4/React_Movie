@@ -1,0 +1,373 @@
+.dFRC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Header-container{
+    width: 100%;
+    height: 60px;      
+    justify-content: space-between;  
+    border: 1px solid rgba(0, 0, 0, 0.152); 
+    position: sticky;
+    top: 0px;
+    z-index: 250;
+   
+}
+/* Header-Left start Here ===> */
+.Header-Left{
+    width: 600px;
+    height: 100%;   
+    justify-content: space-between;
+}
+
+.Name-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    z-index: 100;
+}
+.Drop-Down{
+    position: absolute;
+    width: 160px;
+    height: auto;
+    background-color: #F8F9FA;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-radius: 4px;
+    transform: translateY(+30px);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.Dropdowl-child{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 35px;
+color: black;
+font-size: 16px;
+font-weight: 500;
+outline: none;
+
+}
+a {
+    text-decoration: none;
+  }
+.Dropdowl-child:hover{
+    background-color: gainsboro;
+}
+.Movie ,.Tv-Shows ,.Actors ,.More{
+    display: none;
+}
+.Top-Header-Logo{
+    width: 200px;
+     height: 100%;
+     margin-left: 15px;  
+     margin-right: 10px; 
+ }
+ .Header-img{
+     width: 90px;
+     height: auto;
+    transform: translateY(+2px);
+ }
+ .DiH{
+    margin-left: 3px;
+    font-size: 14px;
+ }
+.Logo-Name{
+    font-size: 17px;    
+    color: red;
+    font-family: 'Square Peg', cursive;
+  
+}
+.MTAM{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+ /* <=== Heade-Left Finish Here */
+/* Header Mid Start Here ===> */
+.Header-Mid-Text{
+    font-size: 49px;
+    font-weight: 700;
+    color: rgba(255, 0, 0, 0.189);
+}
+/* <=== Header Mid Finish Here > */
+ /*///////////////////////////////////////////////////////////////*/
+
+ /* Header-Right start Here ===> */
+.Header-Right{
+    width: 600px;
+    height: 100%;
+    justify-content: flex-end;
+ 
+}
+ .input-Container{
+    width: 300px;
+    height: 38px;   
+    border: 1px solid red;     
+    background-color: black;
+    overflow: hidden;
+   
+    
+}
+.LL-Container{
+    width: 250px;
+    height: 100%;
+    justify-content: space-around;
+}
+#Header-input{
+width: 95%;
+height: 100%;
+padding-left: 15px;
+outline: none;
+font-size: 17px;
+border: none;
+
+}
+.H-search-icon{
+    color: black;    
+    font-size: 18px;
+    border: 1px solid  red;
+    padding: 10px 32px;
+    background-color: grey;
+    color: black;
+    margin-right: 25px;
+
+   
+}
+.H-search-icon:hover{
+    background-color: rgb(151, 150, 150);   
+}
+
+.Lock-europe1{
+margin-left: 5px;
+font-size: 28px;
+color: orange;
+transition: all 9s step-end;
+display: none;
+}
+.Lock-europe2{
+    margin-left: 5px;
+    color:greenyellow;
+}
+.moon{
+    color: aquamarine;
+    margin-left: 5px;
+    font-size: 29px;
+    
+}
+.Line3-Container{
+    margin: 0px 30px;
+    min-width: 35px;
+     height: 100%;
+     display:flex ;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     display: none;
+ 
+ }
+ .Line1{
+     width: 100%;
+     border: 1px solid red;
+     margin-bottom: 8px;
+ }
+ .Line2{
+     width: 100%;
+     border: 1px solid red;
+     margin-bottom: 8px;
+ }
+ .Line3{
+     width: 100%;
+     border: 1px solid red;
+ }
+ .Line3-Container{
+   margin: 0px 15px;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+  cursor: pointer;
+ }
+ .X-icon{
+font-size: 35px;
+color: red;
+display: none;
+ }
+ .bars{
+   display: inline;
+ }
+ .Line3-Container{
+    display: none;
+ }
+.FooterBar{
+    width: 100vw;
+    height: 45px;
+    background-color: black;
+    position: fixed;
+    bottom: 0vh;
+    z-index: 300;
+    display: none;
+}
+.Footer-container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.h-f-h{
+    font-size: 25px;
+    color: red;   
+    padding: 4px 40px;
+    background-color: powderblue;
+    border-radius: 5px;
+ 
+}
+.H-jj{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+
+    
+}
+  /* <=== Heade-Right Finish Here */
+
+  @media(max-width:1630px){
+    .Header-Mid-Text{
+       display: none;
+    }
+  }
+  @media(max-width:1215px){
+    .Top-Header-Logo{
+        width: 130px;       
+     }
+     .Header-img{
+         width: 60px;     
+     }    
+    .Logo-Name{       
+      margin-left: 5px;
+    }  
+    .log-in{
+        display: none;
+    }
+    .LL-Container{
+        width: auto;       
+        margin-right: 28px;        
+    }
+    .input-Container{
+        width: 200px;
+        height: 34px;          
+    }  
+    .H-search-icon{            
+        font-size: 18px;       
+        padding: 8px 30px; 
+        margin-right: 10px;     
+    }
+    .Header-Right{
+        width: auto;      
+       
+    }
+    .Header-container{   
+        position: static;
+        top: 0px;
+        z-index: 250;
+       
+    }
+    .Line3-Container{
+        display: inline;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     }
+     .FooterBar{
+        display: inline;
+    }
+  }
+  @media(max-width:1075px){
+    .Name-Container{
+       display: none;
+    }
+    .Top-Header-Logo{
+        width: 100px;       
+     }
+     .Header-img{
+         width: 50px;     
+     }    
+
+  }
+  @media(max-width:580px){
+    .Logo-Name{       
+        margin-left: 5px;
+        font-size: 13px;   
+      } 
+      .input-Container{
+          width: 160px;
+          height: 30px;          
+      }  
+      .H-search-icon{            
+          font-size: 18px;       
+          padding: 6px 20px; 
+          margin-right: 0px;     
+      }
+      .LL-Container{
+          display: none;
+      }
+      .Line3-Container{
+        margin: 0px 10px;    
+     }
+     .Top-Header-Logo{
+        width: 70px;       
+     }
+     .Header-img{
+         width: 40px;     
+     }    
+    .Logo-Name{       
+      margin-left: 5px;
+    } 
+  }
+  @media(max-width:412px){
+    .Logo-Name{       
+        margin-left: 5px;
+        display: none;
+      } 
+      .Top-Header-Logo{
+        max-width: 40px;
+       
+      }
+  }
+  @media(max-width:355px){
+    .Top-Header-Logo{
+        width: 50px;   
+        margin: 0px;    
+        display: none;
+     }
+     .Header-img{
+         width: 50px;     
+     }    
+
+
+  }
+  .Line2{
+    transition: opacity 0.5s ease;
+}
+  @media(max-width:300px){
+    .h-f-h{
+        font-size: 25px;
+        color: red;   
+        padding: 4px 20px;
+        background-color: powderblue;
+        border-radius: 5px;
+     
+    }
+
+  }

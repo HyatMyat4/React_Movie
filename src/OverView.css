@@ -1,0 +1,272 @@
+.ovw{
+    width: 100vw;
+    height: auto;  
+ 
+}
+.OverView-Container{
+    width: 100%;
+    height: 800px;
+   
+ 
+
+}
+.image-ov{
+   width: 100%;   
+   height: auto;
+ 
+   
+}
+.background-img2{
+   
+}
+.Ov-Right{
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+.ral2{
+    max-width: 1300px;
+    height: auto;
+  margin: 0 auto;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.gghjklll{
+    margin-top: 140px;
+}
+.BGVC-tittle22{
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+    font-family: 'Square Peg', cursive;
+   border-bottom: 1px dashed paleturquoise;
+}
+.colour-flow{
+width: 100vw;
+height: 100%;
+position: absolute;
+background-image: linear-gradient(rgba(45, 42, 42, 0.215) 1% , rgba(0, 0, 0, 0.729) 90% ) ;
+
+}
+.Ov-Right{
+    width: 72%;
+    height: 100%;
+    text-align: center;
+  
+}
+.Geners{
+    padding: 5px 20px;   
+    font-family: 'Square Peg', cursive;
+    background-color: rgba(0, 191, 255, 0.915);    
+    color: black;   
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.Geners:hover{
+    background-color: rgb(237, 237, 237);
+}
+.g-container{
+    margin-top: 19px;
+   
+  
+}
+.tt-container{
+  margin-top: 14px;
+}
+.tt-33v{
+    color: greenyellow ;
+    font-weight: 500;
+    font-family: 'Square Peg', cursive;
+}
+.Casts{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 25px;
+    font-family: 'Square Peg', cursive;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.casts-img{
+    width: 200px;
+    height: auto;
+}
+.casts-container-img{
+    width: 200px;
+    height: auto;
+}
+.jklss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;  
+}
+
+.casts-name{
+    position: absolute;
+    font-family: 'Square Peg', cursive;
+    color: plum;
+    bottom: 0px;
+}
+.kklop{
+   margin-right: 10px;
+}
+.No-display-to-show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SNDTS{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: dodgerblue;
+}
+.NsImg{
+    width: 500px;
+    
+}
+.Rotate{
+    color: palegreen;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.GBk{
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+    color: palegreen;  
+    cursor: pointer;
+    padding-bottom: 5px;
+   border-bottom: 1px solid orangered;
+}
+
+.RdT{ 
+    color: rgb(151, 5, 151);
+    font-weight: bold; 
+    font-size: 18px;
+}
+.TimeRD{
+    font-family: 'Square Peg', cursive;
+font-size: 15px;
+font-weight: bolder ;
+    color: rgb(103, 213, 176) ;
+}
+.c7yz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ghnkjf{
+    margin-right: 5px;
+}
+.ghnkjf2{
+    margin-left: 5px;
+}
+.c782n{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sa{
+    padding: 2px 6px;
+    background-color: red;
+    border-radius: 2px;
+    font-family: 'Square Peg', cursive;
+    font-size: 13px;
+    color: aliceblue;
+    margin-right: 5px;
+}
+.Sa:hover{
+    background-color: orangered;
+}
+.Cas-nanme{
+    font-size: 14px;
+    color: powderblue;
+}
+.Video-container{
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+   
+}
+.Video-Edit{
+   max-width: 800px;
+    height: 400px;    
+    margin: 0 auto;   
+    margin-top: 20px;
+}
+
+@media(max-width:1200px){
+    .Ov-Right{
+        width: 100%;
+    }
+    .BGP-videoCard{
+        margin-top: 200px;
+      
+    }
+     .Video-container{
+        width: 100%;
+        height: auto;
+        margin-top: 250px;
+    }
+    .OverView-Container{      
+        margin-bottom: 250px;    
+    
+    }
+}
+@media(max-width:815px){
+    .OverView-Container{      
+        margin-bottom: 280px;    
+    
+    }
+}
+@media(max-width:560px){
+    .OverView-Container{      
+        margin-bottom: 320px;    
+    
+    }
+}
+@media(max-width:500px){
+    .OverView-Container{      
+        margin-bottom: 380px;    
+    
+    }
+    .BGVC-tittle22{
+        font-size: 30px;
+        font-weight: bold;
+        color: gold;
+        font-family: 'Square Peg', cursive;
+       border-bottom: 1px dashed paleturquoise;
+    }
+    .kklop{
+       margin-right: 0px;
+    }
+    .Video-Edit{
+        max-width: 400px;
+         height: 250px;    
+         margin: 0 auto;   
+         margin-top: 20px;
+     }
+}
+@media(max-width:500px){
+    .g-container{
+        margin-top: 19px;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+       flex-wrap: wrap;      
+    }
+}

@@ -1,0 +1,292 @@
+.FirstBody{
+    width: 100%;
+    height: 750px;
+    
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .background-img{
+    user-select: none;
+    
+  }
+  .Video-card-Slider{
+    width: 100%;
+    height: 200px;
+  
+    
+  }
+  .BackGround-VideoCard{
+    max-width: 500px;
+    height: auto;   
+    border-radius: 20px;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+   
+  }
+  .Overview-Show{
+    font-weight: 500;
+    font-size: 15px;
+  
+  }
+  .spec-c-er{
+    margin-top: 15px;
+    max-width: 400px;
+  }
+  .SEE-MOre{
+    font-size: 20px;
+    color: gold;
+  }
+  .ad1k{
+    margin-top: 10px;
+
+  }
+  .para{
+    
+    color: rgba(240, 248, 255, 0.915);
+  font-weight: bold;
+  }
+  .Background-video-card-container{
+    position: absolute;  
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .spec{
+    width: 500px;
+    height: 100%;
+    background-color: plum
+  }
+  .BGP-videoCard{
+    max-width: 350px;
+    height: 500px;  
+    border-radius: 90px;
+  }
+  .background-img2{
+    border-radius: 10px;
+  } 
+  .Ov-p{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  .BGVC-tittle{
+    color: paleturquoise;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Square Peg', cursive;
+  }
+ .blar-blar{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+ }
+ .Vd-slide-C{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .BGVC-tittle2{  
+  position: absolute;
+  bottom: 0px;
+  font-weight: 500;
+  font-size: 17px;
+  color: gold;
+  user-select: none;
+  font-family: 'Square Peg', cursive;
+ }
+ .slide2{
+  margin-top: 50px;
+ }
+ .img-container{
+  width: 100%;
+  height: 150px;
+ }
+ .Video-Real-Card{
+ position: relative;
+  width: 350px;
+  height: auto;
+  background-color: black;
+  margin-top: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+ }
+
+ .Drop-img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px; }
+ .Video_specs{
+  width: 97%;
+  height: 70px;
+  background-color: black;
+  margin: 0 auto;
+ }
+ .Real_cardVd-Name{
+  bottom: 0px;
+  font-weight: 500;
+  font-size: 17px;
+  color: gold;
+  user-select: none;
+  font-family: 'Square Peg', cursive;
+ }
+ .Popularity{ 
+  font-size: 14px  ;
+color: purple;
+}
+.Star{
+  color: gold;
+}
+.Popular-Count{
+  color: greenyellow;
+}
+.hover-Eff{
+  width: 100%;
+  height: 88%;
+position: absolute;
+border-radius: 4px;
+}
+.hover-Eff:hover{
+  background-color: rgba(255, 255, 255, 0.091);
+}
+.More-container{
+  width: 100%;
+  height: 80px;
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.More-bt{
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  border: none;
+  border-radius: 40px;
+  font-size: 17px;
+ font-weight: bold;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.More-bt:hover{
+  background-color: orangered;
+}
+.Pagination-number-Container{
+  width: 100%;
+  height: 60px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.Number-paganation{
+  color: greenyellow;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  user-select: none;
+  border: 1px solid darkmagenta;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.Number-paganation:hover{
+  background-color: plum;
+}
+.Number-paganation2{
+  color: black;
+ padding: 6px 20px; 
+  user-select: none;
+  border: 1px solid red;
+  background-color: gold;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: 'Square Peg', cursive;
+}
+.See-More2{
+ 
+  padding: 6px 14px;
+  font-size: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  font-family: 'Square Peg', cursive;
+  background-color: red;
+color: white;
+}
+.Number-paganation2:hover{
+background-color: orangered;
+font-family: 'Square Peg', cursive;
+}
+.Total_Page{
+  padding: 5px 20px;
+  border: 1px solid darkmagenta;
+  color: aqua;
+  font-weight: bold;
+}
+.Total-page-number{
+  color: gold;
+  font-size: 17px;
+}
+.Show-caseNumberChange{
+margin-right: 8px;
+font-family: 'Square Peg', cursive;
+}
+.All-page{
+
+}
+
+  @media(max-width:1220px){
+    .Number-paganation{
+      display: none;
+    }
+  
+  }

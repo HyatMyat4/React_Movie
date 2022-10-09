@@ -1,0 +1,85 @@
+.Footer{
+    width: 100%;
+    height: auto;   
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Footer-img{
+    width: 100%;
+    height: auto;
+    
+}
+.Footer-Name{ 
+    font-size: 16px;
+    color: rgba(255, 140, 0, 0.934);
+    font-weight: bold;
+   
+   
+}
+.Footer-Name:hover{
+text-decoration: underline;
+}
+.Footer-img-Container{
+    width: 800px;
+    height: auto;
+    margin: 15px auto;
+   
+   
+}
+.Footer-Left{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.Footer-Right{
+    width: 530px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.Home1{
+    width: 100%;
+    height: 30px;   
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Sponer-container{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.Sponsors{
+    font-size: 17px;
+    color: rgb(8, 250, 8);
+    font-weight: bold;
+}
+.Become-sponsor{
+    font-size: 17px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.Sponsors:hover{
+    text-decoration: underline;
+}
+.Become-sponsor:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,112 @@
+.OverViewCasts{
+    width: 100vw;
+    height: 100vh;
+
+}
+.Casts-Container-detail{
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+.Casts-D-Left{
+   width: 350px;
+    height: 100%;   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.Casts-D-Right{
+    width: 74%;
+    height: 100%;
+   
+  padding-right: 10px;
+
+}
+.profail-img-d{
+    margin-top: 20px;
+   border-radius: 10px;
+}
+.Personal-info{
+   font-size: 20px;
+    font-family: 'Square Peg', cursive;
+  
+}
+.Known{
+    font-family: 'Square Peg', cursive;
+    font-size: 17px;
+    color: palegreen;
+}
+.personD{
+    font-family: 'Square Peg', cursive;
+    font-size: 14px;
+    color: orange;
+}
+.answer-C{
+    margin-top: 20px;
+}
+.name-D{
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+
+}
+.tyittle{
+    font-family: 'Square Peg', cursive;
+    font-size: 20px;
+    color: palegreen;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.polfvje{
+    font-size: 15px;
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+}
+.know-for-d{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    cursor: grab;
+    background-image: linear-gradient(right rgb(5, 5, 5) 100% , rgb(5, 5, 5) 100%);
+}
+.know-for-d::-webkit-scrollbar {   
+     width: 0px;    
+   }
+   .know-for-d::-webkit-scrollbar-track {          
+     background: #18191A;
+     width: 5px;
+    }
+      .know-for-d::-webkit-scrollbar-track:hover { 
+          
+     background: rgba(128, 128, 128, 0.253);
+    }
+    .know-for-d::-webkit-scrollbar-thumb {
+      background: rgba(220, 220, 220, 0.345);      
+      border-radius: 8px;
+      width: 5px;
+     
+     }
+.hHJKHjkhfJKLHFHJK{   
+    margin-left: 15px;
+}
+.jjggllkd{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+@media(max-width:1420px){
+    .Casts-D-Right{
+        width: 100%;
+ 
+    
+    }
+}
