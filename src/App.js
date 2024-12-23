@@ -28,7 +28,7 @@ import SideBarC from './SiderBar.css';
 import SideBar from './Header/SideBar';
 import FooterBar from './Header/FooterBar';
 function App() {
-  const api_key = '69a65b17b82a689fb8dfbe96fb1ccde0';     
+  const api_key = 'c7236663fdf1f30d40eb135279aadead';     
   const [searchvalue , setsearchValue ]=useState([]); 
   const Api_originimg = 'https://image.tmdb.org/t/p/original/' 
   const Url_MovieNaruto =`https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=Naruto&language=en-US&page=1`
