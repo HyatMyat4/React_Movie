@@ -46,7 +46,7 @@ const HeaderLeft = () => {
   return (
     <div className='Header-Left dFRC'>
         <div className='Top-Header-Logo dFRC'>
-            <img className='Header-img' src='https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg' />    
+            <img className='Header-img' src='https://cdn.freelogovectors.net/wp-content/uploads/2022/05/asus_rog_logo_freelogovectors.net_.png' />    
             <span className='Logo-Name'>Replubic of Viwer</span>       
         </div>
         <div className='Name-Container' onMouseEnter={Dropdowl} >

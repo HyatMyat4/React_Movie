@@ -28,7 +28,7 @@ const Footer = () => {
             <span className='Footer-Name'>Cookies</span>
             <span className='Footer-Name'>Privacy and safety</span>  
             <span className='Footer-Name'>More</span>
-          <a href='https://www.facebook.com/hyat.myat.9/'><span className='Footer-Name'>YairMinOo © 2022</span></a>            
+          <a href='https://www.facebook.com/hyat.myat.9/'><span className='Footer-Name'>YairMinOo © 2024</span></a>            
        </div>      
                 
        
